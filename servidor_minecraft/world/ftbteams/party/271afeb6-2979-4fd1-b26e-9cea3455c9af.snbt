@@ -1,0 +1,38 @@
+{
+	id: "271afeb6-2979-4fd1-b26e-9cea3455c9af"
+	type: "party"
+	owner: "89034453-8816-3db5-9097-81f79b656603"
+	ranks: {
+		89034453-8816-3db5-9097-81f79b656603: "owner"
+		ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "LOS MEJORES"
+		"ftbteams:description": "TONTO JESU"
+		"ftbteams:color": "#FF59B0"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1761090992213L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"abeldh\"}]}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761090992222L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"kila\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1761090996970L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"kila\"}]}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761167321056L, text: "{\"text\":\"jesus\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761167327267L, text: "{\"text\":\"por aqui puedes hablar\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761167381645L, text: "{\"text\":\"dale al invetario y donde estan los muñecos\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761167418654L, text: "{\"text\":\"payo come sandwich calvo\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761171029365L, text: "{\"text\":\"tu puedes coger dos mochilas sin silencioso\"}" }
+	]
+	extra: { }
+}

@@ -1,0 +1,552 @@
+[22Oct2025 22:20:48.540] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[22Oct2025 22:20:48.544] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[22Oct2025 22:20:49.193] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ssss/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[22Oct2025 22:20:49.588] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ssss/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[22Oct2025 22:20:49.590] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ssss/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[22Oct2025 22:20:49.591] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ssss/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[22Oct2025 22:20:49.593] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ssss/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[22Oct2025 22:20:49.816] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/ssss/servidor_minecraft/mods/curios-forge-1.19.2-5.1.6.4.jar
+[22Oct2025 22:20:49.816] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[22Oct2025 22:20:52.105] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Oct2025 22:20:52.198] [main/ERROR] [mixin/]: Mixin config justhammers.mixins.json does not specify "minVersion" property
+[22Oct2025 22:20:52.248] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[22Oct2025 22:20:52.326] [main/WARN] [mixin/]: Reference map 'octolib.refmap.json' for octolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2025 22:20:52.512] [main/WARN] [mixin/]: Reference map 'ambientsounds.mixins.refmap.json' for ambientsounds.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2025 22:20:52.516] [main/WARN] [mixin/]: Reference map 'justhammers-forge-forge-refmap.json' for justhammers.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2025 22:20:52.533] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2025 22:20:58.382] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[22Oct2025 22:21:00.908] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[22Oct2025 22:21:00.910] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[22Oct2025 22:21:00.910] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[22Oct2025 22:21:00.911] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[22Oct2025 22:21:00.912] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[22Oct2025 22:21:00.913] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[22Oct2025 22:21:00.913] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[22Oct2025 22:21:01.116] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[22Oct2025 22:21:01.118] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[22Oct2025 22:21:01.793] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[22Oct2025 22:21:01.940] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[22Oct2025 22:21:01.977] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[22Oct2025 22:21:02.048] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[22Oct2025 22:21:02.049] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[22Oct2025 22:21:02.051] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[22Oct2025 22:21:02.059] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[22Oct2025 22:21:02.071] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[22Oct2025 22:21:02.118] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[22Oct2025 22:21:02.120] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[22Oct2025 22:21:02.145] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[22Oct2025 22:21:02.147] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[22Oct2025 22:21:02.159] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[22Oct2025 22:21:02.168] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[22Oct2025 22:21:02.220] [modloading-worker-0/INFO] [FTB Chunks/]: Mod [FTB XMod Compat] not detected. Install it if you want FTB Chunks integration with KubeJS, Game Stages, Waystones, FTB Ranks/Luckperms and/or Common Protection API
+[22Oct2025 22:21:04.366] [main/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/particle/TextureSheetParticle for class it/hurts/sskirillss/octolib/particle/BasicColoredParticle in classloader cpw.mods.modlauncher.TransformingClassLoader@47f04e4d on thread Thread[main,5,main]
+[22Oct2025 22:21:04.366] [main/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.particle.TextureSheetParticle
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:92) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.3.jar%2351!/:6.0.3+6.0.3+master.039e4ea9]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2324) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2439) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClassAsLookup(MethodHandles.java:2420) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2127) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:407) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:315) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:228) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:315) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271) ~[?:?]
+	at it.hurts.sskirillss.octolib.particle.BasicColoredParticle$Options.<clinit>(BasicColoredParticle.java:270) ~[octolib-1.19.2-0.3.jar%23181!/:1.19.2-0.3]
+	at it.hurts.sskirillss.octolib.particle.BasicColoredParticle$Factory$Type.<init>(BasicColoredParticle.java:328) ~[octolib-1.19.2-0.3.jar%23181!/:1.19.2-0.3]
+	at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:388) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:388) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:330) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.19.2-43.4.2.jar%23201!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$postEventWithWrapInModOrder$35(ModLoader.java:315) ~[fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:225) ~[fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+	at net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:313) ~[fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+	at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:341) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$23(ModLoader.java:207) ~[fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:207) ~[fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[22Oct2025 22:21:05.707] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.19.2-develop/update.json
+[22Oct2025 22:21:05.792] [modloading-worker-0/INFO] [io.github.jamalam360.rightclickharvest.RightClickHarvestModInit/]: Initialized
+[22Oct2025 22:21:06.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.19.2-1.5.1-forge Target: null
+[22Oct2025 22:21:06.330] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.19.2
+[22Oct2025 22:21:06.421] [main/INFO] [journeymap/]: Initializing Packet Registries
+[22Oct2025 22:21:06.464] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 17.2.8 Target: 17.2.8
+[22Oct2025 22:21:06.464] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[22Oct2025 22:21:06.602] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[22Oct2025 22:21:06.606] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[22Oct2025 22:21:06.702] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 28 compatible attributes.
+[22Oct2025 22:21:06.704] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 28 values from config.
+[22Oct2025 22:21:06.711] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[22Oct2025 22:21:06.766] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 28 entries.
+[22Oct2025 22:21:06.766] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 28 attributes.
+[22Oct2025 22:21:06.804] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
+[22Oct2025 22:21:06.809] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[22Oct2025 22:21:06.812] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[22Oct2025 22:21:06.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.8 Target: null
+[22Oct2025 22:21:06.815] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19.2
+[22Oct2025 22:21:06.837] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[22Oct2025 22:21:06.837] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 16.3.20 Target: 16.3.20
+[22Oct2025 22:21:06.841] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Oct2025 22:21:06.854] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[22Oct2025 22:21:06.857] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[22Oct2025 22:21:06.858] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[22Oct2025 22:21:06.859] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[22Oct2025 22:21:06.866] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[22Oct2025 22:21:07.033] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
+[22Oct2025 22:21:07.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[22Oct2025 22:21:07.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.2.1518 Target: null
+[22Oct2025 22:21:07.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[22Oct2025 22:21:07.526] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: AHEAD Current: 1.19.2-1.1.23 Target: null
+[22Oct2025 22:21:07.527] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[22Oct2025 22:21:07.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
+[22Oct2025 22:21:07.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[22Oct2025 22:21:07.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.3.9 Target: null
+[22Oct2025 22:21:07.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.19.2-develop/update.json
+[22Oct2025 22:21:07.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.19.2-1.0.0-forge Target: null
+[22Oct2025 22:21:07.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[22Oct2025 22:21:07.785] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.2.jar%23200!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[22Oct2025 22:21:09.784] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Oct2025 22:21:09.940] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+the_masked (version 5.0.0 -> MISSING)
+Things may not work well.
+[22Oct2025 22:21:10.063] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	the_masked:grey_blood_splash: 2469
+	the_masked:red_blood_splash: 2468
+
+[22Oct2025 22:21:10.064] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	the_masked:dead_body: 392
+	the_masked:footsteps: 383
+	the_masked:grey_heart: 386
+	the_masked:hanging_body: 390
+	the_masked:masked_behind: 382
+	the_masked:masked_chase: 388
+	the_masked:masked_decay: 381
+	the_masked:masked_grab: 394
+	the_masked:masked_intruder: 391
+	the_masked:masked_jumpscare: 385
+	the_masked:masked_running: 384
+	the_masked:masked_shadow: 396
+	the_masked:masked_sleeping: 389
+	the_masked:masked_stalking: 380
+	the_masked:masked_turn_around: 393
+	the_masked:red_heart: 387
+	the_masked:spike_wall: 395
+
+[22Oct2025 22:21:10.065] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	the_masked:bloody_corpse_cleaner: 3608
+	the_masked:corpse_cleaner: 3607
+	the_masked:dead_body_spawn_egg: 3605
+	the_masked:grey_blood_splash: 3600
+	the_masked:grey_heart_spawn_egg: 3597
+	the_masked:hanging_body_spawn_egg: 3603
+	the_masked:masked_behind_spawn_egg: 3594
+	the_masked:masked_chase_spawn_egg: 3601
+	the_masked:masked_decay_spawn_egg: 3593
+	the_masked:masked_grab_spawn_egg: 3609
+	the_masked:masked_intruder_spawn_egg: 3604
+	the_masked:masked_jumpscare_spawn_egg: 3596
+	the_masked:masked_running_spawn_egg: 3595
+	the_masked:masked_shadow_spawn_egg: 3611
+	the_masked:masked_sleeping_spawn_egg: 3602
+	the_masked:masked_stalking_spawn_egg: 3592
+	the_masked:masked_turn_around_spawn_egg: 3606
+	the_masked:red_blood_splash: 3599
+	the_masked:red_heart_spawn_egg: 3598
+	the_masked:spike_wall_spawn_egg: 3610
+
+[22Oct2025 22:21:10.065] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	the_masked:decaying_curse: 87
+	the_masked:despawn_timer: 88
+	the_masked:despawn_timer_2: 89
+	the_masked:jumpscare_effect: 85
+	the_masked:paranoia: 86
+
+[22Oct2025 22:21:10.066] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	the_masked:blood_drip_sfx: 1966
+	the_masked:bone_cracking_sfx: 1960
+	the_masked:breath: 1951
+	the_masked:come_here: 1955
+	the_masked:corpse_cleaner_sfx: 1968
+	the_masked:coughing_up_blood_sfx: 1974
+	the_masked:death_sfx: 1947
+	the_masked:decay_spawning_sfx: 1975
+	the_masked:disappear_sfx: 1977
+	the_masked:faint_breathing: 1970
+	the_masked:hanging_body_sfx: 1961
+	the_masked:heartbeat_sfx: 1948
+	the_masked:heartbeating_sfx: 1965
+	the_masked:hey: 1953
+	the_masked:i_see_you: 1954
+	the_masked:im_behind_you: 1971
+	the_masked:jumpscare: 1967
+	the_masked:killed_1: 1963
+	the_masked:killed_2: 1964
+	the_masked:laugh: 1972
+	the_masked:leaves_rustling_sfx: 1949
+	the_masked:long_breath: 1952
+	the_masked:masked_chase_sfx: 1957
+	the_masked:masked_decay_sfx: 1958
+	the_masked:not_in_game: 1962
+	the_masked:sfx_after_getting_killed_by_decay: 1976
+	the_masked:sfx_after_heart_killed: 1969
+	the_masked:tension: 1973
+	the_masked:tree_falling_sfx: 1959
+	the_masked:twig_snap_sfx: 1950
+	the_masked:wood_knocking_sfx: 1956
+
+[22Oct2025 22:21:10.067] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 75 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[22Oct2025 22:21:10.067] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    the_masked:blood_drip_sfx
+    the_masked:bone_cracking_sfx
+    the_masked:breath
+    the_masked:come_here
+    the_masked:corpse_cleaner_sfx
+    the_masked:coughing_up_blood_sfx
+    the_masked:death_sfx
+    the_masked:decay_spawning_sfx
+    the_masked:disappear_sfx
+    the_masked:faint_breathing
+    the_masked:hanging_body_sfx
+    the_masked:heartbeat_sfx
+    the_masked:heartbeating_sfx
+    the_masked:hey
+    the_masked:i_see_you
+    the_masked:im_behind_you
+    the_masked:jumpscare
+    the_masked:killed_1
+    the_masked:killed_2
+    the_masked:laugh
+    the_masked:leaves_rustling_sfx
+    the_masked:long_breath
+    the_masked:masked_chase_sfx
+    the_masked:masked_decay_sfx
+    the_masked:not_in_game
+    the_masked:sfx_after_getting_killed_by_decay
+    the_masked:sfx_after_heart_killed
+    the_masked:tension
+    the_masked:tree_falling_sfx
+    the_masked:twig_snap_sfx
+    the_masked:wood_knocking_sfx
+
+Missing minecraft:item:
+    the_masked:bloody_corpse_cleaner
+    the_masked:corpse_cleaner
+    the_masked:dead_body_spawn_egg
+    the_masked:grey_blood_splash
+    the_masked:grey_heart_spawn_egg
+    the_masked:hanging_body_spawn_egg
+    the_masked:masked_behind_spawn_egg
+    the_masked:masked_chase_spawn_egg
+    the_masked:masked_decay_spawn_egg
+    the_masked:masked_grab_spawn_egg
+    the_masked:masked_intruder_spawn_egg
+    the_masked:masked_jumpscare_spawn_egg
+    the_masked:masked_running_spawn_egg
+    the_masked:masked_shadow_spawn_egg
+    the_masked:masked_sleeping_spawn_egg
+    the_masked:masked_stalking_spawn_egg
+    the_masked:masked_turn_around_spawn_egg
+    the_masked:red_blood_splash
+    the_masked:red_heart_spawn_egg
+    the_masked:spike_wall_spawn_egg
+
+Missing minecraft:block:
+    the_masked:grey_blood_splash
+    the_masked:red_blood_splash
+
+Missing minecraft:mob_effect:
+    the_masked:decaying_curse
+    the_masked:despawn_timer
+    the_masked:despawn_timer_2
+    the_masked:jumpscare_effect
+    the_masked:paranoia
+
+Missing minecraft:entity_type:
+    the_masked:dead_body
+    the_masked:footsteps
+    the_masked:grey_heart
+    the_masked:hanging_body
+    the_masked:masked_behind
+    the_masked:masked_chase
+    the_masked:masked_decay
+    the_masked:masked_grab
+    the_masked:masked_intruder
+    the_masked:masked_jumpscare
+    the_masked:masked_running
+    the_masked:masked_shadow
+    the_masked:masked_sleeping
+    the_masked:masked_stalking
+    the_masked:masked_turn_around
+    the_masked:red_heart
+    the_masked:spike_wall
+
+
+[22Oct2025 22:21:10.067] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[22Oct2025 22:21:10.073] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: easy_villagers:trader Expected: 1695 Got: 2470
+[22Oct2025 22:21:10.073] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: easy_villagers:auto_trader Expected: 1696 Got: 2471
+[22Oct2025 22:21:10.073] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: easy_villagers:farmer Expected: 1697 Got: 2472
+[22Oct2025 22:21:10.073] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: easy_villagers:breeder Expected: 1698 Got: 2473
+[22Oct2025 22:21:10.074] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: easy_villagers:converter Expected: 1699 Got: 2474
+[22Oct2025 22:21:10.074] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: easy_villagers:iron_farm Expected: 1700 Got: 2475
+[22Oct2025 22:21:10.074] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: easy_villagers:incubator Expected: 1701 Got: 2476
+[22Oct2025 22:21:10.077] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: easy_villagers:villager Expected: 2402 Got: 3612
+[22Oct2025 22:21:10.077] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: easy_villagers:trader Expected: 2403 Got: 3613
+[22Oct2025 22:21:10.077] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: easy_villagers:auto_trader Expected: 2404 Got: 3614
+[22Oct2025 22:21:10.077] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: easy_villagers:farmer Expected: 2405 Got: 3615
+[22Oct2025 22:21:10.078] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: easy_villagers:breeder Expected: 2406 Got: 3616
+[22Oct2025 22:21:10.078] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: easy_villagers:converter Expected: 2407 Got: 3617
+[22Oct2025 22:21:10.079] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: easy_villagers:iron_farm Expected: 2408 Got: 3618
+[22Oct2025 22:21:10.079] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: easy_villagers:incubator Expected: 2409 Got: 3619
+[22Oct2025 22:21:10.079] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:stone_hammer Expected: 3477 Got: 3620
+[22Oct2025 22:21:10.079] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:iron_hammer Expected: 3478 Got: 3621
+[22Oct2025 22:21:10.079] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:gold_hammer Expected: 3479 Got: 3622
+[22Oct2025 22:21:10.080] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:diamond_hammer Expected: 3480 Got: 3623
+[22Oct2025 22:21:10.080] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:netherite_hammer Expected: 3481 Got: 3624
+[22Oct2025 22:21:10.080] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:stone_impact_hammer Expected: 3482 Got: 3625
+[22Oct2025 22:21:10.080] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:iron_impact_hammer Expected: 3483 Got: 3626
+[22Oct2025 22:21:10.082] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:gold_impact_hammer Expected: 3484 Got: 3627
+[22Oct2025 22:21:10.082] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:diamond_impact_hammer Expected: 3485 Got: 3628
+[22Oct2025 22:21:10.083] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:netherite_impact_hammer Expected: 3486 Got: 3629
+[22Oct2025 22:21:10.083] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:stone_reinforced_hammer Expected: 3487 Got: 3630
+[22Oct2025 22:21:10.083] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:iron_reinforced_hammer Expected: 3488 Got: 3631
+[22Oct2025 22:21:10.083] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:gold_reinforced_hammer Expected: 3489 Got: 3632
+[22Oct2025 22:21:10.084] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:diamond_reinforced_hammer Expected: 3490 Got: 3633
+[22Oct2025 22:21:10.084] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:netherite_reinforced_hammer Expected: 3491 Got: 3634
+[22Oct2025 22:21:10.084] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:stone_reinforced_impact_hammer Expected: 3492 Got: 3635
+[22Oct2025 22:21:10.084] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:iron_reinforced_impact_hammer Expected: 3493 Got: 3636
+[22Oct2025 22:21:10.084] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:gold_reinforced_impact_hammer Expected: 3494 Got: 3637
+[22Oct2025 22:21:10.085] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:diamond_reinforced_impact_hammer Expected: 3495 Got: 3638
+[22Oct2025 22:21:10.085] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:netherite_reinforced_impact_hammer Expected: 3496 Got: 3639
+[22Oct2025 22:21:10.085] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:stone_destructor_hammer Expected: 3497 Got: 3640
+[22Oct2025 22:21:10.085] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:iron_destructor_hammer Expected: 3498 Got: 3641
+[22Oct2025 22:21:10.086] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:gold_destructor_hammer Expected: 3499 Got: 3642
+[22Oct2025 22:21:10.086] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:diamond_destructor_hammer Expected: 3500 Got: 3643
+[22Oct2025 22:21:10.086] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:netherite_destructor_hammer Expected: 3501 Got: 3644
+[22Oct2025 22:21:10.086] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:impact_core Expected: 3502 Got: 3645
+[22Oct2025 22:21:10.086] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:reinforced_core Expected: 3503 Got: 3646
+[22Oct2025 22:21:10.087] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:reinforced_impact_core Expected: 3504 Got: 3647
+[22Oct2025 22:21:10.087] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: justhammers:destructor_core Expected: 3505 Got: 3648
+[22Oct2025 22:21:11.976] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/ssss/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23199!/assets/.mcassetsroot' uses unexpected schema
+[22Oct2025 22:21:11.977] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/ssss/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23199!/data/.mcassetsroot' uses unexpected schema
+[22Oct2025 22:21:12.034] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:the_masked
+[22Oct2025 22:21:17.010] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[22Oct2025 22:21:17.087] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[22Oct2025 22:21:17.098] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[22Oct2025 22:21:17.110] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[22Oct2025 22:21:17.164] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[22Oct2025 22:21:17.168] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[22Oct2025 22:21:17.170] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[22Oct2025 22:21:17.179] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[22Oct2025 22:21:17.183] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 31 recipes
+[22Oct2025 22:21:17.183] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[22Oct2025 22:21:17.699] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
+[22Oct2025 22:21:17.930] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3629 advancements
+[22Oct2025 22:21:17.934] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[22Oct2025 22:21:17.941] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Structure Repaletter Manager has loaded 0 repaletters
+[22Oct2025 22:21:17.953] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Modded Biome Slice Manager has loaded 1 slices
+[22Oct2025 22:21:17.953] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[22Oct2025 22:21:17.955] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[22Oct2025 22:21:19.849] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[22Oct2025 22:21:19.850] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Oct2025 22:21:19.850] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Oct2025 22:21:19.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Oct2025 22:21:19.968] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Oct2025 22:21:19.998] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[22Oct2025 22:21:20.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Oct2025 22:21:20.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Oct2025 22:21:20.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Oct2025 22:21:20.090] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Oct2025 22:21:20.124] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[22Oct2025 22:21:20.141] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/easy_villagers-server.toml is not correct. Correcting
+[22Oct2025 22:21:20.142] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key breeder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Oct2025 22:21:20.143] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key breeder.breeding_time was corrected from null to its default, 1200. 
+[22Oct2025 22:21:20.143] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key converter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Oct2025 22:21:20.144] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key converter.converting_time was corrected from null to its default, 6000. 
+[22Oct2025 22:21:20.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farmer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Oct2025 22:21:20.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farmer.farm_speed was corrected from null to its default, 10. 
+[22Oct2025 22:21:20.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key iron_farm was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Oct2025 22:21:20.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key iron_farm.spawn_time was corrected from null to its default, 4800. 
+[22Oct2025 22:21:20.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trader was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Oct2025 22:21:20.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trader.min_restock_time was corrected from null to its default, 1200. 
+[22Oct2025 22:21:20.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trader.max_restock_time was corrected from null to its default, 3600. 
+[22Oct2025 22:21:20.149] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key auto_trader was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Oct2025 22:21:20.150] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key auto_trader.min_restock_time was corrected from null to its default, 1200. 
+[22Oct2025 22:21:20.150] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key auto_trader.max_restock_time was corrected from null to its default, 3600. 
+[22Oct2025 22:21:20.151] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key auto_trader.trade_cooldown was corrected from null to its default, 20. 
+[22Oct2025 22:21:20.153] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Oct2025 22:21:20.153] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager.inventory_sounds was corrected from null to its default, true. 
+[22Oct2025 22:21:20.154] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager.sound_amount was corrected from null to its default, 20. 
+[22Oct2025 22:21:20.154] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager.trade_cycling was corrected from null to its default, true. 
+[22Oct2025 22:21:20.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager.universal_reputation was corrected from null to its default, true. 
+[22Oct2025 22:21:20.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key incubator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22Oct2025 22:21:20.157] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key incubator.speed was corrected from null to its default, 2. 
+[22Oct2025 22:21:20.444] [Server thread/INFO] [FTB Teams/]: loaded team data: 3 known players, 4 teams total
+[22Oct2025 22:21:20.469] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[22Oct2025 22:21:20.471] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[22Oct2025 22:21:20.471] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[22Oct2025 22:21:20.471] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[22Oct2025 22:21:20.471] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[22Oct2025 22:21:20.472] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[22Oct2025 22:21:20.472] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[22Oct2025 22:21:20.473] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[22Oct2025 22:21:20.473] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[22Oct2025 22:21:20.473] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[22Oct2025 22:21:20.496] [Server thread/INFO] [Framework/]: Loading server configs...
+[22Oct2025 22:21:20.501] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Oct2025 22:21:20.987] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from interface com.hollingsworth.arsnouveau.common.entity.IFollowingSummon
+[22Oct2025 22:21:21.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Oct2025 22:21:26.871] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:26.960] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:26.987] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.001] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.021] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.030] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.055] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.068] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.379] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.385] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.399] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.425] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.457] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:27.892] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:28.375] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2025 22:21:28.883] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[22Oct2025 22:21:29.410] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[22Oct2025 22:21:29.443] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8068 ms
+[22Oct2025 22:21:29.444] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.343s)! For help, type "help"
+[22Oct2025 22:21:29.529] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Oct2025 22:21:29.600] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[22Oct2025 22:21:29.614] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[22Oct2025 22:21:38.779] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[22Oct2025 22:21:38.812] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/89034453-8816-3db5-9097-81f79b656603.json: Don't know what the_masked:masked_decay_spawn_egg is
+[22Oct2025 22:21:38.812] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/89034453-8816-3db5-9097-81f79b656603.json: Don't know what the_masked:masked_turn_around_spawn_egg is
+[22Oct2025 22:21:38.813] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/89034453-8816-3db5-9097-81f79b656603.json: Don't know what the_masked:red_heart is
+[22Oct2025 22:21:38.814] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/89034453-8816-3db5-9097-81f79b656603.json: Don't know what the_masked:masked_stalking_spawn_egg is
+[22Oct2025 22:21:38.814] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/89034453-8816-3db5-9097-81f79b656603.json: Don't know what the_masked:masked_shadow_spawn_egg is
+[22Oct2025 22:21:38.815] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/89034453-8816-3db5-9097-81f79b656603.json: Don't know what the_masked:masked_chase_spawn_egg is
+[22Oct2025 22:21:38.815] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/89034453-8816-3db5-9097-81f79b656603.json: Don't know what the_masked:masked_decay_spawn_egg is
+[22Oct2025 22:21:38.815] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/89034453-8816-3db5-9097-81f79b656603.json: Don't know what the_masked:masked_turn_around_spawn_egg is
+[22Oct2025 22:21:38.872] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@17a0282c
+[22Oct2025 22:21:38.949] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: abeldh[/127.147.222.187:45891] logged in with entity id 526 at (-959.0172094151309, -35.0, -1744.430104170327)
+[22Oct2025 22:21:39.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh joined the game
+[22Oct2025 22:21:39.244] [Server thread/INFO] [Jade/]: Syncing config to abeldh (89034453-8816-3db5-9097-81f79b656603)
+[22Oct2025 22:21:39.252] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1c259800
+[22Oct2025 22:21:41.872] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3004ms or 60 ticks behind
+[22Oct2025 22:21:44.310] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id the_masked:dead_body
+[22Oct2025 22:21:51.382] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/e281505e-0e29-3498-93bc-58d0db1128e4.json: Don't know what the_masked:masked_decay is
+[22Oct2025 22:21:51.383] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/e281505e-0e29-3498-93bc-58d0db1128e4.json: Don't know what the_masked:red_heart is
+[22Oct2025 22:21:51.408] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@149b2691
+[22Oct2025 22:21:51.426] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: angel1965[/127.212.73.43:53901] logged in with entity id 859 at (48.2187454071796, 75.0, 6449.500573341112)
+[22Oct2025 22:21:51.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 joined the game
+[22Oct2025 22:21:51.506] [Server thread/INFO] [Jade/]: Syncing config to angel1965 (e281505e-0e29-3498-93bc-58d0db1128e4)
+[22Oct2025 22:21:51.510] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3e3bccf1
+[22Oct2025 22:22:46.137] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2.json: Don't know what the_masked:red_heart is
+[22Oct2025 22:22:46.152] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6067cebd
+[22Oct2025 22:22:46.167] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kila[/127.236.175.113:52933] logged in with entity id 1294 at (-951.0009532336361, -35.0, -1756.7694295940084)
+[22Oct2025 22:22:46.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila joined the game
+[22Oct2025 22:22:46.322] [Server thread/INFO] [Jade/]: Syncing config to kila (ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2)
+[22Oct2025 22:22:46.327] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2fece97f
+[22Oct2025 22:24:53.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has reached the goal [Bone Crusher]
+[22Oct2025 22:25:04.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has made the advancement [Magic Writing]
+[22Oct2025 22:25:47.755] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kila moved too quickly! 9.310622640130646,0.0,4.3862853331716
+[22Oct2025 22:25:51.846] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: angel1965 lost connection: Timed out
+[22Oct2025 22:25:51.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 left the game
+[22Oct2025 22:25:51.927] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[22Oct2025 22:25:54.632] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abeldh lost connection: Timed out
+[22Oct2025 22:25:54.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh left the game
+[22Oct2025 22:26:01.527] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kila lost connection: Timed out
+[22Oct2025 22:26:01.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila left the game
+[22Oct2025 22:26:33.368] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /127.212.73.43:55257 lost connection: Disconnected
+[22Oct2025 22:26:33.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Oct2025 22:26:33.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Oct2025 22:26:33.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Oct2025 22:26:34.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Oct2025 22:26:34.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[22Oct2025 22:26:34.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[22Oct2025 22:26:34.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Oct2025 22:26:34.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Oct2025 22:26:34.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Oct2025 22:26:34.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[22Oct2025 22:26:34.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[22Oct2025 22:26:34.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Oct2025 22:26:34.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Oct2025 22:26:34.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Oct2025 22:26:34.147] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread
+[22Oct2025 22:26:34.149] [Server thread/INFO] [Framework/]: Unloading server configs...
